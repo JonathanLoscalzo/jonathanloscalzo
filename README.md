@@ -114,13 +114,13 @@ We built an admin platform for Aeternam, with the ability of creating crypto pay
 Stack: NodeJS, Angular, MongoDB, Binance API, CriptoPayments API..
 
 
-_[Degustando](https://degustando.app/) - Backend & Machine Learning Developer _
+[Degustando](https://degustando.app/) - _Backend & Machine Learning Developer_
 
 We built a new solution platform for Degustando (v2.0) from the beginning. Degustando is the first delivery &take-away platform for Posadas City. Leading the backend group. \
 Stack: MongoDB, Nodejs, React, React-Native, Python, Docker, AWS.
 
 
-_[Provi](https://proviapp.com/) - Backend Developer (2018 - 2019)_
+[Provi](https://proviapp.com/) - _Backend Developer (2018 - 2019)_
 
 We developed the platform for Provi, which is responsible for providing a solution to several suppliers. The system has geolocation and works with [FCM](https://firebase.google.com/docs/cloud-messaging) for sending push notifications. \
 Stack: MongoDB, Nodejs, React, React-Native, Python, Docker, AWS.
