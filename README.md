@@ -16,29 +16,31 @@ Here are some ideas to get you started:
 -->
 
 ## Software Engineer
+
+📫 How to reach me:
 - [Linkedin](https://www.linkedin.com/in/jonathan-loscalzo-7a070279/)  
 - [GitHub](https://github.com/JonathanLoscalzo)
+- [Medium](https://medium.com/@jonathanloscalzo)
 
 
 ## PROFILE
 
-Proactive, passionate about learning, able to work without supervision effectively, collaborating effectively with colleagues, as well as leading teams. My skill set covers various programming languages  along with their popular frameworks and libraries.
+Proactive, passionate about learning, able to work without supervision effectively, collaborating effectively with colleagues, as well as leading teams. My skill set covers various programming languages  along with their popular frameworks and libraries. Additionally, I have experience in working and implementing distributed architectures that utilize message brokers as intermediaries.
 
-In addition, I've solid grasp of traditional Machine Learning algorithms and other Data stack technologies, having worked on projects using essential tools such as scikit-learn, XGBoost, Keras, PyTorch, Airflow. 
+I have a solid grasp of traditional Machine Learning algorithms and other Data stack technologies, having worked on projects using essential tools such as scikit-learn, XGBoost, Keras, PyTorch, Airflow. 
 
-Currently, I am researching MLOps, interested in learning Kubernetes and exploring frameworks related to LLMs. I am always open to acquiring new skills and tools as required, demonstrating a strong commitment to adaptability and growth. I’m seeking a position as Software Engineer or Machine Learning Engineer, interested in joining teams that tackle AI challenges or integrations.
+Currently, I am researching MLOps, interested in learning Kubernetes and exploring frameworks related to LLMs. I am always open to acquiring new skills and tools, demonstrating a strong commitment to adaptability and growth. I’m seeking a position as Software Engineer or Machine Learning Engineer, interested in joining teams that tackle AI challenges or integrations.
 
 
 ## EXPERIENCE
 
-
 ### Noq, Software Developer _- (Apr 2023 - Sept 2023)_
 
-IAMbic_ (Apr 2023 - Present)_
+IAMbic
 
 [IAMbic](https://github.com/noqdev/iambic) is a multi-cloud identity and access management (IAM) control plane that centralizes and simplifies cloud access and permissions. It maintains an eventually consistent, human-readable, bi-directional representation of IAM in version control.
 
-Stack: python, tornado, docker, git, AWS IAM & Organizations, Azure AD, Okta, GCP IAM. OpenSource project.
+Stack: python, tornado, docker, git, AWS IAM & Organizations, Azure AD, Okta, GCP IAM.
 
 
 ### Selehann, Software Developer _- (Dec 2021 - Apr 2023)_
