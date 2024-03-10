@@ -33,6 +33,11 @@ Currently, I am researching MLOps, interested in learning Kubernetes and explori
 
 
 ## EXPERIENCE
+### TrueML, Software Developer _- (Dec 2023 - Current)_
+
+Heartbeat
+Heartbeat is a fully automated and reactive decision engine that uses a combination of machine learning and data-driven heuristics to determine the optimal way of interacting with each individual debtor. It tells us when we should contact them, how often, through which channel, with what content, and what specific types of offers we should provide.
+Stack: python, aws, datadog, looker, SQL, snowflake
 
 ### Noq, Software Developer _- (Apr 2023 - Sept 2023)_
 
