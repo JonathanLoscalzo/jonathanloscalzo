@@ -25,23 +25,36 @@ Here are some ideas to get you started:
 
 ## PROFILE
 
-Proactive, passionate about learning, able to work without supervision effectively, collaborating effectively with colleagues, as well as leading teams. My skill set covers various programming languages  along with their popular frameworks and libraries. Additionally, I have experience in working and implementing distributed architectures that utilize message brokers as intermediaries.
+Proactive software developer with 10 years of experience, passionate about technological innovation, especially in Artificial Intelligence. Driven by continuous learning, adaptability to new technologies, and thriving in fast-paced environments. Seeking a position as a Software or Machine Learning Engineer, preferably in teams tackling AI challenges or integrations. Key strengths include a strong sense of ownership, commitment to technical excellence, ability to lead by example, and fostering a culture of continuous learning. Passionate about solving complex problems, building innovative solutions, and driving the next generation of Artificial Intelligence applications. Eager to contribute to cutting-edge projects in fast-paced environments.
 
-I have a solid grasp of traditional Machine Learning algorithms and other Data stack technologies, having worked on projects using essential tools such as scikit-learn, XGBoost, Keras, PyTorch, Airflow. 
-
-Currently, I am researching MLOps, interested in learning Kubernetes and exploring frameworks related to LLMs. I am always open to acquiring new skills and tools, demonstrating a strong commitment to adaptability and growth. I’m seeking a position as Software Engineer or Machine Learning Engineer, interested in joining teams that tackle AI challenges or integrations.
+## Skills
+- variety of languages, but mainly python, nodejs, typescript, C# & Golang
+  - flask, fastapi, tornado, celery, faust
+  - go: gin
+  - nodejs/typescript: angular, react, nestjs, expressjs 
+- scikit-learn, xgboost, matplot, streamlit
+- sql, nosql, queues: postgres, mysql, redis, mongodb, kinesis, rabbitmq, elasticsearch
+- terraform, docker, aws ecs, k8s(basic)
+- monitoring & observability: prometheus, datadog, cloudwatch, opentelemetry
+- e2e development, ci/cd, devops, mlops, serverless, iac
+- ml, dl, llm, ollama, rag, vector db, evidently, huggingface, replicate, openai, langchain, llamaindex, ragas ...
 
 
 ## EXPERIENCE
 ### TrueML, Software Developer _- (Dec 2023 - Current)_
+TrueML is a mission-driven financial software company that aims to create better customer experiences for distressed borrowers.
 
-Heartbeat
-Heartbeat is a fully automated and reactive decision engine that uses a combination of machine learning and data-driven heuristics to determine the optimal way of interacting with each individual debtor. It tells us when we should contact them, how often, through which channel, with what content, and what specific types of offers we should provide.
-Stack: python, aws, datadog, looker, SQL, snowflake
+*Compliance Checker*
+Critical internal component that prevents from interacting with customers in non-compliant ways. Tech Stack: golang, gorm, gin, kubernetes, eks.
+
+*Heartbeat*
+Heartbeat is a fully automated and reactive decision engine that uses a combination of machine learning and data-driven heuristics to determine the optimal way of interacting with each individual debtor. 
+
+Tech Stack: python, aws, jenkins, rds, ec2, ecs, lambda, ml tools (econml, contextualbandits, boosters).
 
 ### Noq, Software Developer _- (Apr 2023 - Sept 2023)_
 
-IAMbic
+*IAMbic*
 
 [IAMbic](https://github.com/noqdev/iambic) is a multi-cloud identity and access management (IAM) control plane that centralizes and simplifies cloud access and permissions. It maintains an eventually consistent, human-readable, bi-directional representation of IAM in version control.
 
@@ -52,14 +65,14 @@ Stack: python, tornado, docker, git, AWS IAM & Organizations, Azure AD, Okta, GC
 
 _NerdRabbit (Dec 2021 -  Apr 2023)_
 
-NerdRabbit is the first ai-powered, unbiased hiring platform that matches cloud pros with cloud (h)opportunities now matching (h)opportunities for long-term & hourly-term projects.
+NerdRabbit is the first ai-powered, unbiased hiring platform that matches cloud pros with cloud (h)opportunities now matching (h)opportunities for long-term & hourly-term projects. In my role as a Software Engineer, I was in charge of managing the E2E development of the microservices application.
 
 Stack: Flask, MySQL, Redis, Docker, Angular, AWS: SQS, SNS, EC2, S3, ECS, LEX.
 
  \
 _Noble1 (Mar 2021 - Jun 2022)_
 
-Noble1, LLC is part of the Electronic and Precision Equipment Repair and Maintenance Industry. \
+Noble1 is part of the Electronic and Precision Equipment Repair and Maintenance Industry.  In my role as a Software Engineer, I was in charge of managing the E2E development of the monolith application. \
 Stack: Typescript, Angular, Nestjs, MySQL, MongoDB, Redis, AWS: SQS, SNS, EC2, S3, ECS.
 
 
@@ -67,7 +80,7 @@ Stack: Typescript, Angular, Nestjs, MySQL, MongoDB, Redis, AWS: SQS, SNS, EC2, S
 
 _Ngage (apr 2021 - Present)_
 
-Ngage is a platform which gathers data to build real time indicators related to online classes. It gathers information from several softwares such as Zoom, Teams, Moodle, and so on. My role was as an architect, leading a team and addressing the data-analytics/data-science problems that the platform needs, such as developing a ML model for inferring some indicators, solving complex formulas in real-time or near-real-time. \
+Ngage is a platform which gathers data to build real time indicators related to online classes. It gathers information from several softwares such as Zoom, Teams, Moodle, and so on. In my role as an Architect Leader, I was in charge of leading team work and addressing the data-analytics/data-science problems that the platform needs, such as developing a ML model for inferring some indicators, solving complex formulas in near-real-time. \
 Stack: C#, MediatR, python, Azure ML, Docker, SignalR, React, RabbitMQ.
 
 _HAT - Hexacta Architecture Team (2019 - 2021)_
@@ -76,13 +89,12 @@ Provide advice and solutions to the technical managers of Hexacta's projects in 
 
 _Cybersecurity Company - Internal Software (feb - apr 2021)_
 
-Working on an internal software that executes background jobs for security tools to find vulnerabilities.  \
-Stack: Python, Django, DjangoRestFramework, PostgresDB, Docker, Celery.
+Working on an internal software that executes background jobs for security tools to find vulnerabilities. My role was Software Engineer.
+Stack: Python, Django, DjangoRestFramework, PostgresDB, Docker, Celery, (pentest tools)[https://www.kali.org/tools/].
 
 _Turner - Predictive Engine (mar 2019 - dic 2019)_
 
 The aim of "Predictive Scheduling Engine" was to optimize the channel broadcasting based on hard rules and predictive rules from a ML model. My role was leading a team of two developers.
-
 Stack: Python, hypothesis testing, XGBoost, Spring Boot, Spring Data, Docker.
 
  \
@@ -98,12 +110,12 @@ My tasks were to find bottlenecks and solve performance issues in PostgresDB. Al
 
 _<span style="text-decoration:underline;">YPF</span> - Revamping Extranets (jan 2018 - may 2019)_
 
-I worked for YPF on revamping an existing project in charge of management of lubricants orders for YPF service station owners. My role was senior developer and leading a group of four people. \
+YPF is Argentina's state-owned oil and gas company. I worked on revamping an existing project in charge of management of lubricants orders for service station owners. My role was senior developer and leading a group of four people. \
 Stack: C#, Sharepoint, SQL, SOAP.
 
 _[GSS](https://www.gruposancorseguros.com/) - Grupo Sancor Seguros (2014 - 2017)_
 
-I worked for GSS, an insurance company, on several projects as a developer on different core areas, such as: medical exams, disease process & claims, monetary and other legal stuff.  \
+GSS is a leading Argentina insurance group offering a wide range of insurance and financial services including life, health, and property insurance. I worked on several projects as a developer on different core areas, such as: medical exams, disease process & claims, monetary and legal. \
 Stack: C#, knockout-js
 
 
@@ -145,4 +157,4 @@ Stack: Pentaho Suite, Streamlit, Python, Machine Learning.
 
 ### Language
 - Spanish - Native
-- English - Intermediate. Speak, read and write.
+- English - Intermediate (B2). Speak, read and write.
