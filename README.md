@@ -34,14 +34,28 @@ Proactive software developer with 10 years of experience, passionate about techn
   - nodejs/typescript: angular, react, nestjs, expressjs 
 - scikit-learn, xgboost, matplot, streamlit
 - sql, nosql, queues: postgres, mysql, redis, mongodb, kinesis, rabbitmq, elasticsearch
-- terraform, docker, aws ecs, k8s(basic)
+- terraform, docker, cdk, aws ecs, k8s(basic)
 - monitoring & observability: prometheus, datadog, cloudwatch, opentelemetry
 - e2e development, ci/cd, devops, mlops, serverless, iac
 - ml, dl, llm, ollama, rag, vector db, evidently, huggingface, replicate, openai, langchain, llamaindex, ragas ...
 
 
 ## EXPERIENCE
-### TrueML, Software Developer _- (Dec 2023 - Current)_
+### Relutech, Software, AI & ML Developer (Apr 2025-Current)
+
+**Product Typeahead**
+complete
+
+**SQL Agent**
+complete
+
+**Product Scraper Agent**
+complete
+
+
+Stack: langgraph, langchain, aws sagemaker, aws bedrock, python, nodejs.
+
+### TrueML, Software & ML Developer _- (Dec 2023 - March 2025)_
 TrueML is a mission-driven financial software company that aims to create better customer experiences for distressed borrowers.
 
 *Compliance Checker*
