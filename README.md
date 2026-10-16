@@ -25,150 +25,106 @@ Here are some ideas to get you started:
 
 ## PROFILE
 
-Proactive software developer with 10 years of experience, passionate about technological innovation, especially in Artificial Intelligence. Driven by continuous learning, adaptability to new technologies, and thriving in fast-paced environments. Seeking a position as a Software or Machine Learning Engineer, preferably in teams tackling AI challenges or integrations. Key strengths include a strong sense of ownership, commitment to technical excellence, ability to lead by example, and fostering a culture of continuous learning. Passionate about solving complex problems, building innovative solutions, and driving the next generation of Artificial Intelligence applications. Eager to contribute to cutting-edge projects in fast-paced environments.
+Software engineer with 10+ years of experience building and running products in production, from backend and infrastructure to frontend, with a recent focus on AI-powered systems. I own projects end to end: shaping the problem with product and design, delivering the code, and keeping it healthy afterwards. I enjoy mentoring: I have led development teams, run a community training course and taught at university.
+
+Today I build LLM-based agents and document-review pipelines, and I run a fully AI-assisted development workflow (skills, git hooks, CI and automated review agents) that keeps quality high while automating everything that can be automated. Looking for greenfield, high-ownership projects where I can ship, teach and keep learning.
+
 
 ## Skills
-- variety of languages, but mainly python, nodejs, typescript, C# & Golang
-  - flask, fastapi, tornado, celery, faust
-  - go: gin
-  - nodejs/typescript: angular, react, nestjs, expressjs 
-- scikit-learn, xgboost, matplot, streamlit
-- sql, nosql, queues: postgres, mysql, redis, mongodb, kinesis, rabbitmq, elasticsearch
-- terraform, docker, cdk, aws ecs, k8s(basic)
-- monitoring & observability: prometheus, datadog, cloudwatch, opentelemetry
-- e2e development, ci/cd, devops, mlops, serverless, iac
-- ml, dl, llm, ollama, rag, vector db, evidently, huggingface, replicate, openai, langchain, llamaindex, ragas ...
+
+- **Backend:** Advanced Python and Node.js (Django, Django-Ninja, FastAPI, Flask, NestJS). Working knowledge of Go.
+- **Frontend:** TypeScript with React and Angular for production web applications.
+- **Databases:** Design, tuning and operation of SQL (PostgreSQL, MySQL, AWS RDS) and NoSQL databases.
+- **Cloud & DevOps:** Docker, AWS (ECS, EC2, S3, Lambda, SQS/SNS), Terraform and AWS CDK, extensive CI/CD experience (GitHub Actions, Jenkins). Working experience with Kubernetes (EKS).
+- **Architecture & Distributed Systems:** Monolithic and microservice architectures focused on scalability and performance; event-driven systems with RabbitMQ, SQS and Kinesis.
+- **AI & Machine Learning:** LLM and agent systems (LangChain, LangGraph, Strands, Bedrock, Gemini, Langfuse, Ragas, MCP); classical ML (scikit-learn, XGBoost, Keras, PyTorch); MLOps (MLflow, Evidently); Streamlit for data apps.
+- **Engineering practices:** AI-assisted SDLC with an agent harness and skills, test-driven quality gates, technical mentoring and team leadership.
 
 
 ## EXPERIENCE
-### Relutech, Software, AI & ML Developer (Apr 2025-Current)
 
-**Product Typeahead**
-complete
+### Relutech, Software & AI Developer _— (Apr 2025 - Current)_
 
-**SQL Agent**
-complete
+ReluTech is a U.S.-based IT solutions provider specializing in reducing data center infrastructure costs for cloud-committed customers.
 
-**Product Scraper Agent**
-complete
+- **AI-driven automation:** Led and developed internal AI solutions to streamline processes and enhance service offerings. Researched and made the technical decisions in greenfield scenarios.
+- **Agentic systems:** Built agents, chatbots, agentic workflows and data analytics to improve customer experience and operational efficiency.
+- **Cross-functional collaboration:** Worked with several teams to drive the adoption of emerging technologies across the company.
+- **Ownership:** Led, developed and maintained several company projects, such as RAMP and NerdRabbit.
+- **AI-assisted SDLC:** Defined and run a development process where everything that can be automated is automated, and quality is enforced by tooling rather than by hand:
+  - _Planning:_ skills that write PRDs, epics and tasks; Jira context pulled in through TWG, so the agent works from the real tickets.
+  - _Development:_ skills that encode our conventions, so agents implement tasks consistently.
+  - _Quality gates:_ git hooks that catch problems before they leave the machine, CI on every pull request, and tests and audits that verify each change.
+  - _Review:_ automated review agents (Greptile and others) review every PR before a human does.
 
+**Projects**
 
-Stack: langgraph, langchain, aws sagemaker, aws bedrock, python, nodejs.
+- **ReluAdmin:** Internal catalog of components and equipment; a full redesign and migration of the existing admin system.
+- **MiQ:** New application workflow to manage internal quotes.
+- **Product Agent:** ReAct agent that navigates, extracts and summarizes information to generate equipment descriptions automatically.
+- **EquipmentFinder:** Detects duplicated equipment using classic NLP techniques and embeddings.
+- **Job Post Tracker:** Crawls sites to extract job post titles and descriptions; trained a custom model to classify positions as IT or non-IT.
+- **Doc Split & Doc Review:** LLM pipelines built with Gemini and LangChain. Doc Split divides a compliance document into checklists; Doc Review then reviews each checklist to audit whether the required information is present or missing.
 
-### TrueML, Software & ML Developer _- (Dec 2023 - March 2025)_
-TrueML is a mission-driven financial software company that aims to create better customer experiences for distressed borrowers.
-
-*Compliance Checker*
-Critical internal component that prevents from interacting with customers in non-compliant ways. Tech Stack: golang, gorm, gin, kubernetes, eks.
-
-*Heartbeat*
-Heartbeat is a fully automated and reactive decision engine that uses a combination of machine learning and data-driven heuristics to determine the optimal way of interacting with each individual debtor. 
-
-Tech Stack: python, aws, jenkins, rds, ec2, ecs, lambda, ml tools (econml, contextualbandits, boosters).
-
-### Noq, Software Developer _- (Apr 2023 - Sept 2023)_
-
-*IAMbic*
-
-[IAMbic](https://github.com/noqdev/iambic) is a multi-cloud identity and access management (IAM) control plane that centralizes and simplifies cloud access and permissions. It maintains an eventually consistent, human-readable, bi-directional representation of IAM in version control.
-
-Stack: python, tornado, docker, git, AWS IAM & Organizations, Azure AD, Okta, GCP IAM.
+Tech Stack: Python, Node, LangChain, LangGraph, Strands, Gemini, Bedrock, ChromaDB, FastMCP, Langfuse, Ragas, Evidently, MLflow, Docker, ECS, AWS CDK, GitHub Actions.
 
 
-### Selehann, Software Developer _- (Dec 2021 - Apr 2023)_
+### TrueML, Software & ML Developer _— (Dec 2023 - Mar 2025)_
 
-_NerdRabbit (Dec 2021 -  Apr 2023)_
+TrueML is a financial software company focused on improving customer experiences for distressed borrowers through innovative, data-driven solutions.
 
-NerdRabbit is the first ai-powered, unbiased hiring platform that matches cloud pros with cloud (h)opportunities now matching (h)opportunities for long-term & hourly-term projects. In my role as a Software Engineer, I was in charge of managing the E2E development of the microservices application.
-
-Stack: Flask, MySQL, Redis, Docker, Angular, AWS: SQS, SNS, EC2, S3, ECS, LEX.
-
- \
-_Noble1 (Mar 2021 - Jun 2022)_
-
-Noble1 is part of the Electronic and Precision Equipment Repair and Maintenance Industry.  In my role as a Software Engineer, I was in charge of managing the E2E development of the monolith application. \
-Stack: Typescript, Angular, Nestjs, MySQL, MongoDB, Redis, AWS: SQS, SNS, EC2, S3, ECS.
+- **Payments:** Maintained and developed new features for the payment offer platform, integrating with USAePay. Tech Stack: Golang, Gin, AWS Lambda, DynamoDB, cdk8s.
+- **Compliance Checker:** Contributed to a compliance framework that prevents non-compliant customer interactions. Tech Stack: Golang, Gorm, Gin, Kubernetes, EKS, Kinesis.
+- **Heartbeat:** Contributed to the development and maintenance of a fully automated, reactive decision engine. Worked with the Data Science and Product teams to implement features that optimize payment offers using contextual bandits and data-driven heuristics. Tech Stack: Python, AWS (RDS, EC2, ECS, Kinesis), Jenkins.
 
 
-### Hexacta, Software Architect _- (2014 - 2021)_
+### Noq, Software Developer _— (Apr 2023 - Sept 2023)_
 
-_Ngage (apr 2021 - Present)_
+Noq was an early-stage company developing [IAMbic](https://github.com/noqdev/iambic), an open-source platform for managing multi-cloud resources and permissions. IAMbic centralizes and simplifies cloud access, keeping a human-readable, bi-directional representation of identity and access management (IAM) in version control.
 
-Ngage is a platform which gathers data to build real time indicators related to online classes. It gathers information from several softwares such as Zoom, Teams, Moodle, and so on. In my role as an Architect Leader, I was in charge of leading team work and addressing the data-analytics/data-science problems that the platform needs, such as developing a ML model for inferring some indicators, solving complex formulas in near-real-time. \
-Stack: C#, MediatR, python, Azure ML, Docker, SignalR, React, RabbitMQ.
+- **IAMbic:** Built features such as the AWS service control policies provider and integrated authentication with Okta. Stack: Python, Tornado, Docker, Git, Celery, AWS IAM & Organizations, Okta, SQS & SNS.
 
-_HAT - Hexacta Architecture Team (2019 - 2021)_
 
-Provide advice and solutions to the technical managers of Hexacta's projects in terms of architectural and design decisions, technologies and frameworks to be used, in order to improve product quality and productivity. My current areas were Machine Learning, Data and Backend. Additionally, I  wrote posts on _Hexacta Engineering Medium._
+### Selehann, Software Developer _— (Dec 2021 - Apr 2023)_
 
-_Cybersecurity Company - Internal Software (feb - apr 2021)_
+Selehann is a software development and technology consulting company. I collaborated with cross-functional teams to deliver software solutions.
 
-Working on an internal software that executes background jobs for security tools to find vulnerabilities. My role was Software Engineer.
-Stack: Python, Django, DjangoRestFramework, PostgresDB, Docker, Celery, (pentest tools)[https://www.kali.org/tools/].
+- **NerdRabbit:** The first AI-powered, unbiased hiring platform, matching cloud-certified developers with long-term and hourly projects. As Software Engineer, I led the end-to-end development of the microservices application. Stack: Flask, MySQL, Redis, Docker, Angular, ElasticSearch, AWS (SQS, SNS, EC2, S3, ECS, Lex).
+- **Noble1:** A company in the electronic and precision equipment repair and maintenance industry. As Software Engineer, I led the end-to-end development and migration of its new application. Stack: TypeScript, Angular, NestJS, MySQL, MongoDB, Redis, AWS (SQS, SNS, EC2, S3, ECS).
 
-_Turner - Predictive Engine (mar 2019 - dic 2019)_
 
-The aim of "Predictive Scheduling Engine" was to optimize the channel broadcasting based on hard rules and predictive rules from a ML model. My role was leading a team of two developers.
-Stack: Python, hypothesis testing, XGBoost, Spring Boot, Spring Data, Docker.
+### Hexacta, Software Engineer and Team Leader _— (2014 - 2021)_
 
- \
-_Hx Labs (sep 2019 – oct 2020)_
+Seven years at Hexacta, advancing from technical roles to leading development teams and guiding key projects. My work covered Machine Learning, Data and Backend, always aimed at improving the quality and productivity of the company's projects. I also created and ran internal training courses and wrote technical posts for the Hexacta Engineering Medium blog.
 
-Developing and Managing an online training course for the Community. Around 200 people attended. The course takes students from a small architecture based on frontend-backend separation, Ducks structure in frontend and N-Layer in backend. My role was involved in the creation of the resources, hands-on project, presentations and managing the online course. 
-
-Tech Stack: Netcore, React, Redux, Litedb.
-
-_Equinauts (sept 2019 - oct 2019)_
-
-My tasks were to find bottlenecks and solve performance issues in PostgresDB. Also, I developed a proof of concept applying dimensional modelling & ETL process with airflow.
-
-_<span style="text-decoration:underline;">YPF</span> - Revamping Extranets (jan 2018 - may 2019)_
-
-YPF is Argentina's state-owned oil and gas company. I worked on revamping an existing project in charge of management of lubricants orders for service station owners. My role was senior developer and leading a group of four people. \
-Stack: C#, Sharepoint, SQL, SOAP.
-
-_[GSS](https://www.gruposancorseguros.com/) - Grupo Sancor Seguros (2014 - 2017)_
-
-GSS is a leading Argentina insurance group offering a wide range of insurance and financial services including life, health, and property insurance. I worked on several projects as a developer on different core areas, such as: medical exams, disease process & claims, monetary and legal. \
-Stack: C#, knockout-js
+- **Ngage (1 year):** Platform that gathers data from Zoom, Teams and Moodle to build real-time indicators for online classes. As Technical Leader, I led the team and handled its data-analytics and data-science problems: an ML model to infer indicators, complex formulas solved in near real time, and computer vision models that detect whether students are paying attention. Stack: C#, MediatR, Python, Azure ML, Docker, SignalR, React, RabbitMQ.
+- **HAT, Hexacta Architecture Team (2 years):** Advised the technical managers of Hexacta's projects on architecture and design decisions, technologies and frameworks, to improve product quality and productivity. Assigned areas: Machine Learning, Data and Backend. Also wrote posts for the Hexacta Engineering Medium blog.
+- **Coalfire, Cybersecurity internal software (4 months):** Software Engineer on an internal tool that runs background jobs for security tools to find vulnerabilities. Stack: Python, Django, Django REST Framework, PostgreSQL, Docker, Celery.
+- **Turner, Predictive Engine (10 months):** Optimized channel broadcasting using hard rules and the predictions of an ML model. Led a team of two developers. Stack: Python, hypothesis testing, XGBoost, Spring Boot, Spring Data, Docker, Pandas.
+- **Hx Labs (1.5 years):** Developed and ran an online training course for the community, with around 200 attendees per session. The course starts from a small architecture based on frontend/backend separation. I created the resources, the hands-on project and the presentations, and managed the course. Stack: .NET Core, React, Redux, LiteDB.
+- **Equinauts (2 months):** Analytics solutions company. Identified and resolved bottlenecks and performance issues in PostgreSQL. Stack: Node.js, PostgreSQL.
+- **YPF, Extranets revamp (1.5 years):** YPF is Argentina's state-owned oil and gas company. Led a small team of developers on the modernization of the system that manages lubricant orders for service station owners. Stack: C#, SQL, SOAP.
+- **Grupo Sancor Seguros, Suite migration (3 years):** One of Argentina's leading insurance groups. Developer on several migration projects across core areas: medical exams, disease processes and claims, and monetary and legal aspects. Stack: C#, Knockout.js.
 
 
 ### Consulting & External Projects
 
-_Liberty Lion - Full Stack & Team Leader_
-
-We built a platform for Liberty Lion, a Fuel Station organization to manage different aspects of the establishments, e.g. human-resources, notifications. \
-Stack: NestJS, Angular, PostgreSQL.
+- **Liberty Lion, Lead Engineer:** Developed a fuel station management platform (HR, notifications). Stack: NestJS, Angular, PostgreSQL.
+- **[Degustando](https://degustando.app/), Founding Engineer (Backend & Machine Learning):** Led backend and machine learning for a platform enabling delivery and takeaway services in Posadas City. Stack: MongoDB, Node.js, React, React Native, Python, Docker, AWS.
 
 
-_Aeternam Broker - Backend & Team Leader_
+### Teaching Assistant, Business Intelligence, UNLP _— (2018 - Present)_
 
-We built an admin platform for Aeternam, with the ability of creating crypto payments and following these payments in the blockchain. \
-Stack: NodeJS, Angular, MongoDB, Binance API, CriptoPayments API..
-
-
-[Degustando](https://degustando.app/) - _Backend & Machine Learning Developer_
-
-We built a new solution platform for Degustando (v2.0) from the beginning. Degustando is the first delivery &take-away platform for Posadas City. Leading the backend group. \
-Stack: MongoDB, Nodejs, React, React-Native, Python, Docker, AWS.
-
-
-[Provi](https://proviapp.com/) - _Backend Developer (2018 - 2019)_
-
-We developed the platform for Provi, which is responsible for providing a solution to several suppliers. The system has geolocation and works with [FCM](https://firebase.google.com/docs/cloud-messaging) for sending push notifications. \
-Stack: MongoDB, Nodejs, React, React-Native, Python, Docker, AWS.
+Assist in delivering lectures, guide students through practical exercises and explain data analysis, machine learning and visualization techniques. I design course materials, support hands-on labs and mentor students in the use of ML tools and methodologies. Stack: Kettle, Streamlit, Python, Machine Learning, ETL, databases and data warehousing.
 
 
 ## EDUCATION
 
-### Universidad Nacional de La Plata (UNLP) _- Licenciatura en Sistemas_
+### Universidad Nacional de La Plata (UNLP) _— Licenciatura en Sistemas_
 
-I am currently working on my dissertation, its main topic is MLOps. Stack: Python, MLflow, Docker.
-
-Teacher Assistant at UNLP_ - Business Intelligence (2018 - Present)_
-I'm working as a Teacher Assistant of _Business Intelligence_.  \
-Stack: Pentaho Suite, Streamlit, Python, Machine Learning.
+Thesis in progress, on MLOps: a MovieLens recommender system with experiment tracking and model registry, drift and accuracy monitoring, and feedback-driven retraining with champion promotion and rollback. Stack: Python, PyTorch, MLflow, Evidently, FastAPI, PostgreSQL, Docker.
 
 ### Language
-- Spanish - Native
-- English - Intermediate (B2). Speak, read and write.
+
+- Spanish — Native
+- English — Intermediate (B2). Speak, read and write.
